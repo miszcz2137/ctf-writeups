@@ -41,11 +41,11 @@ We solve it and as far as I tested there's one free value in this system. We cou
 
 ## Solution
 
-For starters I wrote python script to change public key format. (file extract.py. it's an abomination but it works, so no need to upgrade).
+For starters I wrote python script to change public key format. (file [extract.py](extract.py). it's an abomination but it works, so no need to upgrade).
 Output is in format: n matrixes n x n with values divided by spaces, and then n bytes of ciphertext also in numbers.
 By numbers I mean integers, cause there is easy bijection from G to (0, 1, ..., 255).
 
-Then it's time to code the solver (in c++ cause speed is needed). The file is solve.cpp, also don't forget -O3 if you wanna compile.
+Then it's time to code the solver (in c++ cause speed is needed). The file is [solve.cpp](solve.cpp), also don't forget -O3 if you wanna compile.
 
 First 40 lines are includes and implementation on G (from now called GF).
 Addition in GF is just a simple xor on number representation. For multiplication I counted all products in python and then copied it to const array cause it's easier and faster :P
