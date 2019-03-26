@@ -2,6 +2,7 @@ zer0mi
 ======
 
 DISCLAIMER: Linear algebra heavy write-up
+Note: Sonewhere lost part of the formatting code, so writeup will be updated soon.
 
 ## Intro
 
