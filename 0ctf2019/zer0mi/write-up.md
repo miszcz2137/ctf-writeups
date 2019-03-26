@@ -27,7 +27,7 @@ Lets say A consists of elements a<sub>i,j</sub> (from G of course). Then we coun
 It must be zero polynomial so coefficients for each (x<sub>i</sub> * x<sub>j</sub> * x<sub>k</sub>) must be zero. But each coefficient is combination of a<sub>l,m</sub> so we get equation for a<sub>l,m</sub> for each term (x<sub>i</sub> * x<sub>j</sub> * x<sub>k</sub>). Lets say (n * n * n) equations, just some of them will be (0 = 0).
 
 So we solve it and we should get exactly n free variables (cause math, won't explain and after some thought I'm not entirely sure why). But this gives us equations that's describes vector space of possible A. <br>
-Lets call free a<sub>i.j</sub> b<sub>k</sub>.
+Lets call free a<sub>l.m</sub> b<sub>k</sub>.
 So we convert all a<sub>l,m</sub> to combination of the free ones and put it back to (X A F<sup>T</sup>).
 
 We also change F from public key to ciphertext Y. That's because we know (y<sub>i</sub> = f<sub>i</sub>(flag<sub>1</sub>, ..., flag<sub>n</sub>)). The product must be zero (because we defined that it's equal to zero for general form of Y, so it'll be zero for specific). <br>
