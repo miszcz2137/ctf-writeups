@@ -46,7 +46,7 @@ The dev team is currently working on fixing the issue.
 ```
 
 From now on our goal is to decode first and third session key. <br>
-I couldn't find any useful tools, so I did is mostly manually. My steps were:
+My steps were:
 * export private key to pem,
 * using openssl get p, q etc.
 * using gpg --list-packets --verbose get data with encrypted session keys,
