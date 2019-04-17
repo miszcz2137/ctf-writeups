@@ -69,7 +69,7 @@ He explained what was the last packet about (notice I didn't use it). <br>
 Notice that YT links are in format `https://www.youtube.com/watch?v=<video id>`. <br>
 That gives us the [video](https://www.youtube.com/watch?v=h_D3VFfhvs4). <br>
 That's a hints a fact that `mod - 1` is extremely smooth integer (highly divisible): <br>
-`factor(mod - 1) == 2^6 * 3^13 * 5^12 * 7^14 * 11^2 * 13^13 * 17^10 * 19^4 * 23^14 * 29^12'` <br>
-Prime numbers that are highly divisible integers plus one are actually really unsafe cryptographically, that's offen `modulus = 2 * q + 1` where q is prime. Those primes are called "safe primes". <br>
+`factor(mod - 1) == 2^6 * 3^13 * 5^12 * 7^14 * 11^2 * 13^13 * 17^10 * 19^4 * 23^14 * 29^12` <br>
+Prime numbers that are highly divisible integers plus one are actually really unsafe cryptographically, that's why offen `modulus = 2 * q + 1` where q is prime. Those primes are called "safe primes". <br>
 Given `mod - 1` is highly divible one can efficiently count discrite logarithm using this [algorithm](https://en.wikipedia.org/wiki/Pohlig%E2%80%93Hellman_algorithm). <br>
-I didn't notice that, but my guess sagemath uses this or similar algorithm since it can count `discrete_log(pub2, g)`.
+I didn't notice that, but my guess is sagemath uses this or similar algorithm since it can count `discrete_log(pub2, g)`.
