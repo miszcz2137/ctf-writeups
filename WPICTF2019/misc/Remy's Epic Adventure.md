@@ -17,10 +17,10 @@ So normally one would search for boss' health and modify it. But I didn't know e
 
 So I changed it to 10 and when I resumed the game boss health bar disappeared. I finished it of and there was the finish. And there I was at the title screen happy about myself. Here comes a guy, pulling the flag out from behind the screen.
 (will add photos later) <br>
-![Image](https://raw.githubusercontent.com/miszcz2137/ctf-writeups/master/WPICTF2019/screen1.png "Screen1")
+![Image](https://raw.githubusercontent.com/miszcz2137/ctf-writeups/master/WPICTF2019/misc/screen1.png "Screen1")
 
 When there was about two thirds of flag visible he stopped. And then he jumped quickly showing the flag for split-second. Eh...
 
 So I had to repeat the process, but I got to the title screen I used CheatEngine speed alteration to slow down the game 10 times and recorded the display with my phone. Then I read the whole flag that is WPI{j0in_th3_illumin@ti_w1th_m3}.
 
-![Image](https://raw.githubusercontent.com/miszcz2137/ctf-writeups/master/WPICTF2019/slow-mo.png "Slow-mo screen")
+![Image](https://raw.githubusercontent.com/miszcz2137/ctf-writeups/master/WPICTF2019/misc/slow-mo.png "Slow-mo screen")
