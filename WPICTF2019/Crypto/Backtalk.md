@@ -12,6 +12,7 @@ There are five packets with any data in this pcapng:
 * pub: 395845978879527614395747015710220346649266534299630917403355837833474281961610537213685243037337675| enc_key: 212772881309582973820829804871086196222372777546441069077968628884317585160442388385222503910529273
 * 32 bytes of binary data
 * v=h_D3VFfhvs4
+If you are new to pcap's I used wireshark.
 
 So as it says "Key exchange" in the first packet I instantly thought about Diffie-Hellman key exchange. It makes sense cause then we have generator `g`, modulus `mod` and two public values. <br>
 In D-H `pub = pow(g, random_number, mod)`, so if we wanna break it we gotta find discrete logarithm. <br>
